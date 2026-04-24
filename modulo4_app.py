@@ -1510,13 +1510,6 @@ def configurar_sidebar(df: pd.DataFrame, df_stats: pd.DataFrame,
             help="Cuántos meses de inventario quieres tener disponibles después de la compra.",
         )
 
-        st.markdown("**Días de entrega del proveedor**")
-        st.slider(
-            "Lead time", min_value=7, max_value=90, value=30, step=7,
-            key="lead_time_dias", label_visibility="collapsed",
-            help="Cuántos días tarda el proveedor en entregar desde que haces el pedido.",
-        )
-
         st.markdown("**¿En qué basar la demanda?**")
         fuente_opcion = st.radio(
             "Fuente demanda",

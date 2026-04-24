@@ -158,7 +158,7 @@ def cargar_desde_mariadb(
         )
         df = pd.read_sql(
             f"SELECT {columnas_bd} FROM {consulta} "
-            f"WHERE fecha_orden_compra >= '2018-01-01'",
+            f"WHERE fecha_orden_compra >= '2017-01-01'",
             conn
         )
         conn.close()

@@ -1,0 +1,12 @@
+streamlit
+pandas
+numpy
+plotly
+prophet
+statsmodels
+scikit-learn
+requests
+pyarrow
+pymysql
+openpyxl
+openai

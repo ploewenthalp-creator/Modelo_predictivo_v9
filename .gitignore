@@ -1,0 +1,20 @@
+# Secrets — nunca subir al repositorio
+.streamlit/secrets.toml
+config.ini
+
+# Cache y modelos entrenados
+__pycache__/
+*.pyc
+*.pkl
+modelos_cache/
+trm_cache.parquet
+resultados/
+
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
